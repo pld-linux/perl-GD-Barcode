@@ -6,7 +6,7 @@ Summary(pl):	Modu³ Perla GD::Barcode - do tworzenia obrazów z kodem paskowym
 Name:		perl-GD-Barcode
 Version:	1.14
 Release:	1
-License:	GPL/Artistic
+License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	85aaa2f7722f8011714539476665e0ac
