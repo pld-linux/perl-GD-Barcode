@@ -29,7 +29,7 @@ z kodem paskowym przy u¿yciu GD.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
