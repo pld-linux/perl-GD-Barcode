@@ -5,7 +5,7 @@ Summary:	GD::Barcode Perl module - create barcode image with GD
 Summary(pl):	Modu³ Perla GD::Barcode - do tworzenia obrazów z kodem paskowym
 Name:		perl-GD-Barcode
 Version:	1.15
-Release:	1
+Release:	2
 License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
