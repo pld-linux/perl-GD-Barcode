@@ -2,7 +2,7 @@
 %define		pdir	GD
 %define		pnam	Barcode
 Summary:	GD::Barcode Perl module - create barcode image with GD
-Summary(pl):	Modu³ Perla GD::Barcode - do tworzenia obrazów z kodem paskowym
+Summary(pl.UTF-8):   ModuÅ‚ Perla GD::Barcode - do tworzenia obrazÃ³w z kodem paskowym
 Name:		perl-GD-Barcode
 Version:	1.15
 Release:	2
@@ -20,9 +20,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 GD::Barcode is a subclass of GD and allows you to create barcode image
 with GD.
 
-%description -l pl
-GD::Barcode jest podklas± klasy GD, pozwalaj±c± na tworzenie obrazów
-z kodem paskowym przy u¿yciu GD.
+%description -l pl.UTF-8
+GD::Barcode jest podklasÄ… klasy GD, pozwalajÄ…cÄ… na tworzenie obrazÃ³w
+z kodem paskowym przy uÅ¼yciu GD.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
