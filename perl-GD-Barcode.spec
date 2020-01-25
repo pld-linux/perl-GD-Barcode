@@ -1,6 +1,5 @@
 %define		pdir	GD
 %define		pnam	Barcode
-%include	/usr/lib/rpm/macros.perl
 Summary:	GD::Barcode Perl module - create barcode image with GD
 Summary(pl.UTF-8):	Moduł Perla GD::Barcode - do tworzenia obrazów z kodem paskowym
 Name:		perl-GD-Barcode
