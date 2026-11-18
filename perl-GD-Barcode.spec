@@ -1,15 +1,19 @@
+#
+# Conditional build:
+%bcond_without	tests		# do not perform "make test"
+#
 %define		pdir	GD
 %define		pnam	Barcode
 Summary:	GD::Barcode Perl module - create barcode image with GD
 Summary(pl.UTF-8):	Moduł Perla GD::Barcode - do tworzenia obrazów z kodem paskowym
 Name:		perl-GD-Barcode
-Version:	1.15
-Release:	4
+Version:	2.02
+Release:	1
 License:	GPL or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	53788170efb00b671ffb6ced5b5b897b
-URL:		http://search.cpan.org/dist/GD-Barcode/
+Source0:	https://www.cpan.org/authors/id/M/MI/MICHIELB/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	975d474d2552dd6693414881eb2ff472
+URL:		https://metacpan.org/release/GD-Barcode
 BuildRequires:	perl-GD
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
@@ -31,6 +35,8 @@ kodem paskowym przy użyciu GD.
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
 %{__make}
+
+%{?with_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
